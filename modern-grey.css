@@ -3,6 +3,7 @@ body {
 	font-size: small !important;
 	color: #CACBCC !important;
 	background: #393939 url('background.png');
+	min-width: 920px;
 }
 
 a {
@@ -20,7 +21,6 @@ a:hover {
 #mal_control_strip {
 	background-image: none !important;
 	background-color: rgba(0, 0, 0, 0.4) !important;
-	min-width:920px !important;
 }
 
 #mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
@@ -28,10 +28,7 @@ a:hover {
 }
 
 #mal_cs_powered {
-	top: auto !important;
-	right: auto !important;
-	float:right;
-	padding: 10px;
+	padding: 8px;
 	position: inherit !important;
 	height: inherit !important;
 }
@@ -45,15 +42,10 @@ a:hover {
 
 #list_surround {
 	margin: 0 auto;
-	min-width:920px;
 	max-width: 90%;
 }
 
-/* Categories */
-
-.status_not_selected, .status_selected {
-	padding: 0 16px;
-}
+/* Categories & table */
 
 .status_not_selected a, .status_selected a {
 	background-color: rgba(0, 0, 0, 0.4);
@@ -72,8 +64,6 @@ a:hover {
 	color: #A6E22E !important;
 	background-color: rgba(0, 0, 0, 0.8);
 }
-
-/* Table */
 
 .table_header, .td1, .td2, .status_selected, .status_not_selected, .category_totals {
 	border: 0;
@@ -114,7 +104,7 @@ tr:hover [class^="td"] {
 }
 
 .td1 a[title~="increase"], .td2 a[title~="increase"] {
-	float:right;
+	float: right;
 	padding: 0 8px !important;
 	font-weight: bold;
 }
@@ -132,23 +122,16 @@ tr:hover [class^="td"] {
 
 .borderRBL {
 	text-align: left;
-	padding-left:60px;
+	padding-left: 60px;
 	line-height: 16px;
 }
 
-/* Headers */
-
-[class^="header_"] * {
-	font-size: 19px;
-	line-height: 24px;
-	text-align: right;
-	vertical-align: bottom;
-}
+/* Header title */
 
 .header_title {
-	display: inline-block;
-	height: auto;
 	padding: 8px;
+	font-size: 19px;
+	float: right;
 }
 
 /* Stats, copyright */
@@ -164,5 +147,5 @@ tr:hover [class^="td"] {
 }
 
 #copyright:after {
-	content: " CSS modern-grey by inphekd";
+	content: " 'modern-grey' by inphekd";
 }
