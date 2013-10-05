@@ -139,13 +139,11 @@ tr:hover [class^="td"] {
 #grand_totals, #copyright {
 	background-color: rgba(0, 0, 0, 0.4);
 	border-radius: 2px;
-	line-height: 20px;
-	min-height: 20px;
-	padding: 8px;
+	padding: 16px;
 	text-align: center;
 	vertical-align: middle;
 }
 
 #copyright:after {
-	content: " 'modern-grey' by inphekd";
+	content: " CSS modern-grey. Twitter @inphekd";
 }
