@@ -18,25 +18,13 @@ a:hover {
 /* Control strip */
 
 #mal_control_strip {
-	background: url(none) !important;
+	background-image: none !important;
 	background-color: rgba(0, 0, 0, 0.4) !important;
 	min-width:920px !important;
 }
 
-#mal_control_strip td {
-	height: 50px;
-}
-
 #mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
 	border: 0 !important;
-}
-
-#mal_cs_listinfo {
-	width:160px !important;
-}
-
-#mal_cs_links {
-	width:200px !important;
 }
 
 #mal_cs_powered {
@@ -160,7 +148,7 @@ tr:hover [class^="td"] {
 .header_title {
 	display: inline-block;
 	height: auto;
-	padding: 8px 8px 8px 0;
+	padding: 8px;
 }
 
 /* Stats, copyright */
