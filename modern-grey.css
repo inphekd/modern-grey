@@ -1,149 +1,149 @@
 body {
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-size: small !important;
-    color: #CACBCC !important;
-    background: #393939 url('background.png');
-    min-width: 920px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: small !important;
+	color: #CACBCC !important;
+	background: #393939 url('background.png');
+	min-width: 920px;
 }
 
 a {
-    color: #CACBCC !important;
-    text-decoration: none !important;
-    text-shadow: none !important;
+	color: #CACBCC !important;
+	text-decoration: none !important;
+	text-shadow: none !important;
 }
 
 a:hover {
-    color: #FD9720 !important;
+	color: #FD9720 !important;
 }
 
 /* Control strip */
 
 #mal_control_strip {
-    background-image: none !important;
-    background-color: rgba(0, 0, 0, 0.4) !important;
+	background-image: none !important;
+	background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
 #mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
-    border: 0 !important;
+	border: 0 !important;
 }
 
 #mal_cs_powered {
-    padding: 8px;
-    position: inherit !important;
-    height: inherit !important;
+	padding: 8px;
+	position: inherit !important;
+	height: inherit !important;
 }
 
 .List_LightBox {
-    color: #A6E22E !important;
-    font-weight: bold !important;
+	color: #A6E22E !important;
+	font-weight: bold !important;
 }
 
 /* Container */
 
 #list_surround {
-    margin: 0 auto;
-    max-width: 90%;
+	margin: 0 auto;
+	max-width: 90%;
 }
 
 /* Categories & table */
 
 .status_not_selected a, .status_selected a {
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 2px;
-    display: block !important;
-    font-weight: bold;
-    padding: 8px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 2px;
+	display: block !important;
+	font-weight: bold;
+	padding: 8px;
 }
 
 .status_selected a {
-    color: #A6E22E !important;
-    background-color: rgba(0, 0, 0, 0.8);
+	color: #A6E22E !important;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 .status_not_selected a:hover {
-    color: #A6E22E !important;
-    background-color: rgba(0, 0, 0, 0.8);
+	color: #A6E22E !important;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 .table_header, .td1, .td2, .status_selected, .status_not_selected, .category_totals {
-    border: 0;
-    padding: 6px 8px;
-    text-align: center;
+	border: 0;
+	padding: 6px 8px;
+	text-align: center;
 }
 
 .table_header {
-    background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 .table_header:first-of-type {
-    border-radius: 2px 0 0 0;
+	border-radius: 2px 0 0 0;
 }
 
 .table_header:nth-of-type(2), .td1:nth-of-type(2), .td2:nth-of-type(2) {
-    text-align: left;
+	text-align: left;
 }
 
 .table_header:last-of-type {
-    border-radius: 0 2px 0 0;
+	border-radius: 0 2px 0 0;
 }
 
 .td1, .td2 {
-    background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 tr:hover [class^="td"] {
-    background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .td1 a, .td2 a {
-    color: #A6E22E !important;
+	color: #A6E22E !important;
 }
 
 .td1 a:hover, .td2 a:hover {
-    color: #FD9720 !important;
+	color: #FD9720 !important;
 }
 
 .td1 a[title~="increase"], .td2 a[title~="increase"] {
-    float: right;
-    padding: 0 8px !important;
-    font-weight: bold;
+	float: right;
+	padding: 0 8px !important;
+	font-weight: bold;
 }
 
 .td1 input[type=text], .td2 input[type=text] {
-    width: 100%;
-    box-sizing: border-box;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 .category_totals {
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 0 0 2px 2px;
-    text-align: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 0 0 2px 2px;
+	text-align: center;
 }
 
 .borderRBL {
-    text-align: left;
-    padding-left: 60px;
-    line-height: 16px;
+	text-align: left;
+	padding-left: 60px;
+	line-height: 16px;
 }
 
 /* Header title */
 
 .header_title {
-    padding: 8px;
-    font-size: 16px !important;
-    float: right;
+	padding: 8px;
+	font-size: 16px !important;
+	float: right;
 }
 
 /* Stats, copyright */
 
 #grand_totals, #copyright {
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 2px;
-    padding: 16px;
-    text-align: center;
-    vertical-align: middle;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 2px;
+	padding: 16px;
+	text-align: center;
+	vertical-align: middle;
 }
 
 #copyright:after {
-    content: " CSS modern-grey. Twitter @inphekd";
+	content: " CSS modern-grey. Twitter @inphekd";
 }
